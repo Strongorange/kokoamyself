@@ -1,0 +1,32 @@
+.birthday-box {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.02);
+  padding: 15px;
+}
+
+.birthday-box__text {
+  margin: 0px 10px;
+}
+
+.birthday-box i {
+  opacity: 0.5;
+  color: tomato;
+}
+
+.divider {
+  margin-top: 20px;
+  border-bottom: 1px solid var(--gray);
+}
+
+.main-screen__friends {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.main-screen__friends {
+  display: flex;
+  justify-content: space-between;
+}

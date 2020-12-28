@@ -1,5 +1,7 @@
 .status-bar {
   margin-top: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
   display: flex;
   justify-content: space-between;
 }

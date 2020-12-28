@@ -1,0 +1,94 @@
+.user-component {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-component__column__img__normal {
+  width: 80px;
+  height: 80px;
+  border-radius: 30%;
+}
+
+.user-component__column__img__small {
+  width: 60px;
+  height: 60px;
+  border-radius: 30%;
+}
+
+.user-component__column {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__column__name {
+  font-weight: 600;
+  font-size: 22px;
+  margin-left: 15px;
+}
+
+.user-component__column__name__small {
+  font-weight: 400;
+  font-size: 18px;
+  margin-left: 15px;
+}
+
+.user-component__column__name__ddung {
+  position: fixed;
+  top: 150px;
+  font-size: 18px;
+}
+
+.user-component__column__name__daram {
+  position: fixed;
+  top: 243px;
+  font-size: 18px;
+}
+
+.user-component__column__name__zing {
+  position: fixed;
+  top: 335px;
+  font-size: 18px;
+}
+
+.user-component__column__name__crab {
+  position: fixed;
+  top: 425px;
+  font-size: 18px;
+}
+
+.user-component__column__name__kton {
+  position: fixed;
+  top: 515px;
+  font-size: 18px;
+}
+
+.user-component__column__name__chats__contents {
+  margin-left: 16px;
+}
+
+.user-component__column__name__chats__contents,
+.user-component__column__time {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component__column_chats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.user-component__column_chats__reddot {
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: tomato;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 1px;
+}
