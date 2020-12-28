@@ -1,0 +1,18 @@
+.find-box__icons {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 25px;
+}
+
+.find-box__icon {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.find-box__icon i {
+  margin-bottom: 10px;
+}
