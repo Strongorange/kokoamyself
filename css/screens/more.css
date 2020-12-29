@@ -56,6 +56,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .suggestionbox-todays-menu-box__items img {
@@ -75,4 +76,40 @@
 .suggestionbox-todays-menu-box__items span {
   margin-top: 10px;
   margin-bottom: 5px;
+}
+
+.suggestionbox-todays-menu-box__items__lovers {
+  background-color: rgba(255, 213, 23, 0.609);
+  border-radius: 10px;
+  position: absolute;
+  width: 70px;
+  top: 62px;
+  padding: 2px;
+}
+
+.suggestionbox-todays-menu-box__items__lovers span {
+  color: white;
+}
+
+.suggestionbox-todays-menu-box__items__lovers i {
+  color: tomato;
+}
+
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+
+.suggestionbox-todays-menu-box__items__lovers i:hover {
+  animation: heartBeat 1s linear infinite;
 }
