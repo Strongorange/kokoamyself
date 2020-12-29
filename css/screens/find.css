@@ -15,4 +15,85 @@
 
 .find-box__icon i {
   margin-bottom: 10px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.find-box__recommended-friends {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.user-component__column__name__find {
+  font-size: 15px;
+  margin-right: 25px;
+}
+
+.divider-find {
+  padding: 10px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.open-chat {
+  display: flex;
+  justify-content: space-between;
+}
+
+.open-chat__gohome {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.open-chat__gohome i {
+  margin-left: 7px;
+  margin-bottom: 20px;
+}
+
+.open-chat__title {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.open-chat__img {
+  width: 90px;
+  height: 90px;
+  border-radius: 20px;
+  margin-left: 60px;
+}
+
+.open-chat__contents {
+  display: block;
+  margin-top: 20px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.open-chat__contents h2 {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 5px;
+}
+
+.open-chat__contents img {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin-top: 5px;
+}
+
+.open-chat__contents__membercount {
+  display: flex;
+  align-items: center;
+}
+
+.open-chat__contents__membercount span:nth-child(3) {
+  color: rgb(243, 155, 231);
+}
+
+.open-chat__img__2th {
+  margin-right: 14px;
+  margin-top: 15px;
+}
+
+.open-chat__img__3th {
+  margin-right: 14px;
+  margin-top: 15px;
 }
