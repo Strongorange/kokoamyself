@@ -27,6 +27,12 @@
   margin-left: 15px;
 }
 
+.user-component__column__name__chat {
+  margin-bottom: 40px;
+  margin-left: 5px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
 .user-component__column__name__small {
   font-weight: 400;
   font-size: 18px;

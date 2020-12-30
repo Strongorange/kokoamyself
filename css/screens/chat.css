@@ -1,0 +1,24 @@
+.ddung__bg {
+  background-color: thistle;
+}
+
+.last-chat-time {
+  text-align: center;
+}
+
+.last-chat-time__content {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  padding: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.chat__send {
+  background-color: white;
+  padding: 7px;
+  margin-top: 15px;
+  margin-left: -60px;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+}
