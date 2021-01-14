@@ -18,3 +18,8 @@
 .screen-header__icons i {
   margin: 0px 8px;
 }
+
+.screen-header__name {
+  font-size: 28px;
+  font-weight: 600;
+}

@@ -1,0 +1,25 @@
+.contentbox {
+  margin: 25px;
+}
+
+.content-row {
+  display: flex;
+  align-items: center;
+}
+
+.content-row__imgbox {
+  margin-right: 15px;
+}
+
+.content-row__text {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.content-row__imgbox {
+  opacity: 0.6;
+}
+
+.divider {
+  border-bottom: 1px solid var(--gray);
+}

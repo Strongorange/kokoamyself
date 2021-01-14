@@ -30,7 +30,7 @@
 .user-component__column__name__chat {
   margin-bottom: 40px;
   margin-left: 5px;
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .user-component__column__name__small {
@@ -41,31 +41,31 @@
 
 .user-component__column__name__ddung {
   position: fixed;
-  top: 150px;
+  top: 170px;
   font-size: 18px;
 }
 
 .user-component__column__name__daram {
   position: fixed;
-  top: 243px;
+  top: 263px;
   font-size: 18px;
 }
 
 .user-component__column__name__zing {
   position: fixed;
-  top: 335px;
+  top: 355px;
   font-size: 18px;
 }
 
 .user-component__column__name__crab {
   position: fixed;
-  top: 425px;
+  top: 445px;
   font-size: 18px;
 }
 
 .user-component__column__name__kton {
   position: fixed;
-  top: 515px;
+  top: 535px;
   font-size: 18px;
 }
 
