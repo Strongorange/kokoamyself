@@ -35,11 +35,11 @@
 }
 
 .id-form__text:focus {
-  border-color: var(--yellow);
+  border-color: var(--zib);
 }
 
 .id-form__submit {
-  background-color: var(--yellow);
+  background-color: var(--zib);
   padding: 20px;
   border-radius: 10px;
   border: 0px;

@@ -13,5 +13,5 @@
 }
 
 .chats-input input:focus {
-  border: 1px solid var(--yellow);
+  border: 1px solid var(--zib);
 }
