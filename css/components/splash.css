@@ -1,0 +1,23 @@
+@keyframes fade-out_splash {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.splash {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--zib);
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  font-size: 66px;
+  color: rgb(255, 187, 175);
+  animation: fade-out_splash 1.5s ease-in-out forwards;
+}

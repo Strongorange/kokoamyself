@@ -1,3 +1,12 @@
+@keyframes nav__noti__flip {
+  from {
+    transform: rotateY(0);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
 .nav {
   position: fixed;
   bottom: 0;
@@ -15,4 +24,22 @@
 
 .nav-icons {
   margin: 0px 25px;
+  position: relative;
+}
+
+.nav__noti {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: tomato;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  animation: nav__noti__flip 1s ease-in-out infinite;
 }
